@@ -38,7 +38,7 @@ public class MyController {
 	 */
 	 
 	// /MyController/welcomehttp?empno=100&empname=hello
-	@RequestMapping(value="/welcomehttp", method = RequestMethod.GET)
+	@RequestMapping(value="/v", method = RequestMethod.GET)
 	public String welcomeName(WebRequest req,ModelMap model) {
 		empService.getEmployee(1);
  
